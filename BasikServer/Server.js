@@ -4,6 +4,7 @@ const app=express()
 app.use((req,res)=>{
     res.send("this is basic server ")
 })
+console.log('aksjdfaldsfa')
 app.listen(3000,()=>{
     console.log("your server runnig on port 3000");
     
